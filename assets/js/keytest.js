@@ -9,9 +9,9 @@ $(document).keyup(function (e) {
           return;
       } else if (e.keyCode == 17) {
           if (e.originalEvent.location == 1)
-              $('.left-shift').css('opacity','0.0');
+              $('.leftCtrl').css('opacity','0.0');
           else
-              $('.right-shift').css('opacity','0.0');
+              $('.rightCtrl').css('opacity','0.0');
           return;
       } else if (e.keyCode == 18) {
           if (e.originalEvent.location == 1)

@@ -57,10 +57,10 @@ border-radius: 7px;
   margin-right: 0;
   }
   #keyboard .space {
-   width: 41.6%;
+  width: 35.6%;
   }
   ul{
-    width: 80%;
+    width: 50%;
     margin-left: 20px
   }
   .flex-container {
