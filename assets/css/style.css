@@ -1,0 +1,91 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font:  Sans-Serif;
+background: #eee;
+}
+.jumbotron{
+  background:rgb(219, 217, 217);
+}
+.container{
+  max-width: 100%;
+  margin: 0; 
+}
+
+#keyboard {
+padding: 0;
+list-style: none;
+}
+
+#keyboard li {
+  font-size: 10px;
+float: left;
+margin: 0 2px 2px 0;
+width: 50px;
+height: 40px;
+line-height: 30px;
+color: white;
+text-align: center;
+background: #000;
+border: 1px solid #f9f9f9;
+border-radius: 7px;
+-o-border-radius:5p;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+  .capslock, .tab, .left-shift {
+  clear: left;
+  }
+      #keyboard .tab, #keyboard .backspace {
+      width: 155px;
+      }
+      #keyboard .capslock {
+      width: 130px;
+      }
+      #keyboard .return {
+      width: 128px;
+      }
+      #keyboard .left-shift {
+      width: 153.5px;
+      }
+      #keyboard .right-shift {
+      width: 153.5px;
+      }
+  .lastitem {
+  margin-right: 0;
+  }
+  #keyboard .space {
+  width: 35.6%;
+  }
+  ul{
+    width: 50%;
+    margin-left: 20px
+  }
+  .flex-container {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+  .display-4
+  {
+    margin: auto;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    
+  }
+  .spc{
+    opacity: 0;
+  }
+  .bdy{
+    padding: 20px;
+    background: #000;
+    height: 100vh;
+  }
+ 
